@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,500&family=Oleo+Script+Swash+Caps&family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,500&family=Hind+Siliguri:wght@300&family=Oleo+Script+Swash+Caps&family=Tapestry&display=swap');
+
+body {
+    background: linear-gradient(70deg, #7FFFD4, pink);
+    text-align: center;
+    width: 600px;
+    margin-left: 390px;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+h2 {
+    font-size: 22px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+#description {
+    font-size: 18px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+#survey-form {
+    background: rgb(147, 5, 5, 0.2);
+    border-color: #5F9EA0;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 10px;
+
+}
+
+form {
+    background: rgb(147, 5, 5, 0.5);
+    padding: 2.5rem 2.5rem;
+    border-radius: 2rem;
+    width: 500px;
+    margin: auto;
+}
+
+.form-inputs {
+    display: block;
+    background-color: #fff;
+    border: 2px solid #ced4da;
+    border-radius: 0.5em;
+}
+
+#name-label {
+    vertical-align: 17px;
+    padding-right: 460px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+#name,
+#name1 {
+    width: 500px;
+    height: 25px;
+
+}
+
+#email-label {
+    vertical-align: 17px;
+    padding-right: 460px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+#email {
+    width: 500px;
+    height: 25px;
+}
+
+#dropdown-p {
+    padding-right: 400px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 15px;
+}
+
+#dropdown {
+    width: 508px;
+    height: 31px;
+    margin-right: -29px;
+
+}
+
+#number-label {
+    vertical-align: 7px;
+    padding-right: 350px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+#number {
+    width: 500px;
+    height: 25px;
+}
+
+#time-p {
+    vertical-align: 5px;
+    padding-right: 228px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 15px;
+}
+
+
+#time-label,
+#time-label1,
+#time-label2 {
+    padding-right: 350px;
+}
+
+#activities-p {
+    vertical-align: 5px;
+    padding-right: 100px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 15px;
+}
+
+#activities1,
+#activities2,
+#activities3,
+#activities4 {
+    margin: px;
+}
+
+#activities-label1,
+#activities-label2,
+#activities-label3,
+#activities-label4 {
+    padding-right: 23px;
+}
+
+#comment-label {
+    vertical-align: 7px;
+    padding-right: 290px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+#comment {
+    width: 500px;
+    height: 100px;
+}
+
+#submit {
+    font-family: 'Hind Siliguri', sans-serif;
+    width: 100px;
+    font-size: 15px;
+    height: 30px;
+    background-color: #5F9EA0;
+    border: 1px solid #696969;
+    border-radius: 7px;
+
+}
