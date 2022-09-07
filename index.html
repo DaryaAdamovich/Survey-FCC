@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>site for training</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <h1 id="tittle">Day care center "Dream"</h1>
+    <h2>Please, fill out the application form</h2>
+    <p id="description">By filling out the form, you will help us effectively gather groups in our nursery, and we will
+        also send you an invitation to an interview</p>
+
+    <form id="survey-form">
+
+        <label for="name" id="name-label">Name</label>
+        <br>
+        <input id="name1" type="text" name="name" placeholder="Enter your name" class="form-inputs">
+        <br>
+        <br>
+
+        <label for="Email" id="email-label">Email</label>
+        <br>
+        <input id="email" type="email" name="email" placeholder="Enter your email" class="form-inputs" required>
+        <br>
+
+        <p id="dropdown-p">Сhoose branch</p>
+        <select id="dropdown" name="Сhoose branch" class="form-inputs">
+            <option value="1">Najda street, Abu Dhabi</option>
+            <option value="2">Al Heelah street, Abu Dhabi</option>
+            <option value="3">Al Qusais Main Road, Dubai</option>
+            <option value="4">Dubai Silicon Oasis</option>
+            <option value="5">Marina walk, Dubai</option>
+        </select>
+        <br>
+        <br>
+
+
+        <label for="number" id="number-label">How old is your child?</label>
+        <br>
+        <input id="number" type="number" name="number" placeholder="Age" min="1" max="5" step="1" class="form-inputs"
+            required>
+        <br>
+
+        <p id="time-p">What time will your child attend nursery?</p>
+
+        <input id="time" type="radio" name="time">
+        <label for="time" id="time-label">From 9am till 1pm</label>
+        <br>
+
+        <input id="time1" type="radio" name="time">
+        <label for="time" id="time-label1">From 1pm till 5pm</label>
+        <br>
+
+        <input id="time3" type="radio" name="time">
+        <label for="time2" id="time-label2">From 9am till 5pm</label>
+        <br>
+        <br>
+
+
+        <p id="activities-p">What activities would you like to include in the day program?</p>
+
+        <input id="activities1" type="checkbox" name="activities" value="Painting">
+        <label for="activities" id="activities-label1">Painting</label>
+
+        <input id="activities2" type="checkbox" name="activities" value="Dancing">
+        <label for="activities" id="activities-label2">Dancing</label>
+
+        <input id="activities3" type="checkbox" name="activities" value="Modeling">
+        <label for="activities" id="activities-label3">Modeling</label>
+
+        <input id="activities4" type="checkbox" name="activities" value="Educational games">
+        <label for="activities" id="activities-label4">Educational games</label>
+        <br>
+        <br>
+        <br>
+
+        <label for="comment" id="comment-label">Any comments or suggestions?</label>
+        <br>
+        <textarea name="comment" id="comment" placeholder="Enter your comments" class="form-inputs"></textarea>
+
+
+        <p>
+            <input id="submit" type="button" value="Submit" submit>
+        </p>
+
+    </form>
+</body>
+</html>
